@@ -1,0 +1,119 @@
+/*           This css file created by Vasudev jaiswal    */
+* {
+                margin: 0%;
+                padding: 0%;
+                box-sizing: border-box;
+            }
+            
+            body {
+                margin: 0%;
+                padding: 0%;
+                background: url(pic1.jpg);
+                background-position: fixed;
+                color: white;
+                font-family: 'Baloo Tammudu 2', cursive;
+            }
+            
+            .left {
+                display: inline-block;
+                position: absolute;
+                left: 33px;
+                top: 20px;
+            }
+            /* invert fuction for white img to black black img to whtie [ filter: invert(100%); ] */
+            
+            .left img {
+                width: 50px;
+            }
+            
+            .left div {
+                text-align: center;
+                margin: -10%;
+                font-size: 24px;
+            }
+            
+            .mid {
+                display: block;
+                margin: 20px auto;
+                width: 37%;
+            }
+            
+            .navbar {
+                display: inline-block;
+            }
+            
+            .navbar li {
+                display: inline-block;
+            }
+            
+            .navbar li a {
+                font-size: 20px;
+                color: white;
+                text-decoration: none;
+                padding: 10px 10px;
+            }
+            
+            .navbar li a:hover,
+            .navbar li.active {
+                text-decoration: underline;
+            }
+            
+            .right {
+                display: inline-block;
+                position: absolute;
+                right: 33px;
+                top: 20px;
+            }
+            
+            .btn {
+                margin: 0px 8px;
+                color: white;
+                background-color: black;
+                padding: -3px 12px;
+                border-radius: 10px;
+                font-size: 15px;
+                cursor: pointer;
+                font-family: 'Baloo Tammudu 2', cursive;
+            }
+            
+            .btn:hover {
+                background-color: rgba(128, 128, 128, 0.746);
+            }
+            
+            .container {
+                border: 2px solid white;
+                margin: 90px 158px;
+                padding: 10px 50px;
+                width: 30%;
+                border-radius: 31px;
+                font-size: 10px;
+            }
+            
+            .formgroup input {
+                text-align: center;
+                display: block;
+                width: 276px;
+                padding: 6px;
+                border: 2px solid red;
+                border-radius: 23px;
+                font-family: 'Baloo Tammudu 2', cursive;
+                margin: 2px 5px;
+            }
+/*  This css style created by Vasudev Jaiswal */
+            
+            .container button {
+                display: block;
+                width: 74%;
+                margin: 11px auto;
+            }
+            
+            .developer {
+                color: rgb(38, 0, 255);
+                font-weight: bold;
+                font-size: 20px;
+                border: 2px solid white;
+                display: inline-block;
+                border-radius: 10px;
+                position: absolute;
+                top: 94%;
+            }
